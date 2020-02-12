@@ -1,3 +1,5 @@
+-- run with
+-- psql -U dunder_mifflin -d knex-practice -f ./sql-scripts/seed.shopping-list.sql
 
 INSERT INTO shopping_list (name, price, category, checked, date_added)
 VALUES
