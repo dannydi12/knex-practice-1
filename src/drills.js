@@ -59,18 +59,4 @@ function getCostByCategory() {
     })
 }
 
-// SELECT
-//    category,
-//    SUM( price )
-// FROM
-//    shopping_list
-// GROUP BY
-//    category
-
-
-// SELECT COUNT(CustomerID), Country
-// FROM Customers
-// GROUP BY Country
-// ORDER BY COUNT(CustomerID) DESC;
-
 getCostByCategory();
